@@ -15,7 +15,7 @@
     </parameters>
 
     <services>
-        <service id="bcc_resque.resque" class="%bcc_resque.resque.class%" lazy="true">
+        <service id="bcc_resque.resque" class="%bcc_resque.resque.class%">
             <argument type="collection">
                 <argument key="kernel.root_dir">%bcc_resque.worker.root_dir%</argument>
                 <argument key="kernel.debug">%kernel.debug%</argument>
